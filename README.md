@@ -7,17 +7,13 @@ THIAGO PALERMO DE ANDRADE
 VINICIUS BRETTAS DA SILVA PALMEIRA
 PEDRO LUCAS ROSENO PACHECO
 
-TEMA: COMO CONTER O CONTÁGIO DO COVID-19?
+Tema: como conter o contágio do Covid-19?
 
-O PROJETO : A IDEIA FOI DE FAZER UM APLICATIVO QUE EXIBA O NÚMERO DE   
-PESSOAS QUE ESTÃO EM UM  DETERMINADO LUGAR PARA  QUE A MESMA EVITE  A AGLOMERAÇÃO , 
-ASSIM AJUDANDO A DIMINUIR A PROLIFERAÇÃO DO VÍRUS NO PAÍS.
+Projeto: desenvolver um aplicativo que exiba o número de pessoas em um 
+determinado local, visando evitar aglomerações e por consequência ajudar a diminuir a proliferação do vírus no país.
 
-O FUNCIONAMENTO: A PESSOA ESCOLHE  ATRAVÉS DE DOIS BOTÕES SE VAI SE CADASTRAR 
-COMO PESSOA OU COMO ESTABELECIMENTO, QUEM FOR SE CADASTRAR COMO PESSOA  VAI 
-PREENCHER UMA FICHA E CONFIRMAR COM UM BOTÃO, SE FOR ESTABELECIMENTO VAI PREENCHER 
-UMA FICHA E DIZER O NÚMERO DE PESSOAS PERMITIDAS NO LOCAL E DIZER SE O LOCAL ESTÁ COM MAIS DE 50% DA OCUPAÇÃO.
+Funcionamento: o usuário poderá escolher através de dois botões, realizar o cadastro como 
+pessoa ou estabelecimento. Escolhido o cadastro como pessoa, o mesmo deverá preencher uma simples ficha e confirmar a ação, já se 
+for optado pela opção estabelecimento será necessário informar junto a ficha a quantidade de indivíduos permitidos no local. 
 
-TECNOLOGIAS: ANDROID STUDIO, JAVA, SQLITE ,GITHUB E DISCORD
-
-
+Tecnologias: Android Studio, Java, SQLite, GitHub e Discord.
