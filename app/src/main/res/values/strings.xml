@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">CtrlGuys</string>
+    <string name="Nomeloja">Nome loja</string>
+    <string name="Endereço">Endereço</string>
+    <string name="Informaçao">Informaçao</string>
+    <string name="n_pessoas">Capacidade</string>
+    <string name="condiçao">Condiçao</string>
+    <string name="btnEntrar">Entrar</string>
+    <string name="btnSair">Sair</string>
+    <string name="Cadastro">Cadastro Pessoa</string>
+    <string name="name">Nome</string>
+    <string name="Email">Email</string>
+    <string name="Senha">Senha</string>
+    <string name="btnCadastrar">Cadastrar</string>
+    <string name="Cadastro_Empresa">Cadastro Empresa</string>
+    <string name="NomeEmpresa">Nome da Empresa</string>
+    <string name="cnpj">CNPJ</string>
+    <string name="horario">Horario</string>
 </resources>

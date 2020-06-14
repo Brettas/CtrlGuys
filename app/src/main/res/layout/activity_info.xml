@@ -1,11 +1,10 @@
 <LinearLayout
 
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-    <!-- A CardView that contains a TextView -->
+
 
 
     <TextView
@@ -14,7 +13,7 @@
         android:layout_height="40dp"
         android:layout_marginBottom="10dp"
         android:gravity="center"
-        android:text="Nome loja"
+        android:text="@string/Nomeloja"
         android:textSize="30sp" />
 
     <TextView
@@ -25,7 +24,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
         android:gravity="center"
-        android:text="Endereço"
+        android:text="@string/Endereço"
         android:textSize="30sp" />
 
     <TextView
@@ -34,7 +33,7 @@
         android:layout_height="50dp"
         android:layout_gravity="center_horizontal"
         android:gravity="center"
-        android:text="Informaçao"
+        android:text="@string/Informaçao"
         android:textSize="30sp" />
 
     <TextView
@@ -42,7 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:gravity="center"
-        android:text="QtD"
+        android:text="@string/n_pessoas"
         android:textSize="30sp" />
 
     <TextView
@@ -50,7 +49,7 @@
         android:layout_width="match_parent"
         android:layout_height="90dp"
         android:gravity="center"
-        android:text="condiçao"
+        android:text="@string/condiçao"
         android:textSize="30sp" />
 
     <Button
@@ -61,7 +60,7 @@
         android:layout_gravity="center_vertical"
         android:background="#28F344"
         android:gravity="center"
-        android:text="Entrar"
+        android:text="@string/btnEntrar"
         android:textColor="#000000"
         android:textStyle="bold" />
 
@@ -72,7 +71,7 @@
         android:background="#F14E4E"
         android:duplicateParentState="false"
         android:freezesText="false"
-        android:text="Sair"
+        android:text="@string/btnSair"
         android:textColor="#090909"
         android:textColorHighlight="#FFFFFF"
         android:textStyle="bold" />

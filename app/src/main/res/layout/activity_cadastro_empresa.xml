@@ -13,7 +13,7 @@
         android:layout_height="70dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="80dp"
-        android:text="Cadastro Empresa"
+        android:text="@string/Cadastro_Empresa"
         android:textAlignment="center"
         android:textSize="30sp"
         android:textStyle="bold" />
@@ -27,7 +27,7 @@
         android:layout_marginTop="20dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Nome da loja"
+        android:text="@string/NomeEmpresa"
         android:textAlignment="center"
         android:textSize="20sp" />
 
@@ -39,7 +39,7 @@
         android:layout_marginBottom="5dp"
         android:ems="10"
         android:inputType="number"
-        android:text="CEP" />
+        android:text="@string/cnpj" />
 
     <EditText
         android:id="@+id/editTxtNPessoas"
@@ -49,7 +49,7 @@
         android:layout_marginBottom="5dp"
         android:ems="10"
         android:inputType="number"
-        android:text="N de Pessoas" />
+        android:text="@string/n_pessoas" />
 
     <EditText
         android:id="@+id/editTxtHora"
@@ -59,7 +59,7 @@
         android:layout_marginBottom="5dp"
         android:ems="10"
         android:inputType="number"
-        android:text="Horario" />
+        android:text="@string/horario" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -69,7 +69,7 @@
         android:layout_margin="10dp"
         android:ems="10"
         android:inputType="textWebPassword"
-        android:text="passport"
+        android:text="@string/Senha"
         android:textAlignment="center"
         android:textSize="20sp" />
 
@@ -79,6 +79,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="5dp"
-        android:text="Cadastrar" />
+        android:text="@string/btnCadastrar" />
 
 </LinearLayout>

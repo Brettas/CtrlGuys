@@ -2,34 +2,33 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools">
+    android:background="#FFFFFF">
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="40dp">
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
 
 
         <SearchView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/colorAccent"
-            />
+            android:background="#B5B5B6" />
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#FFFFFF"
-       android:layout_marginTop="88dp">
+        android:layout_marginTop="88dp"
+        android:background="#FFFFFF">
 
         <ListView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            tools:listitem="">
+            android:layout_height="match_parent">
+
         </ListView>
 
     </LinearLayout>

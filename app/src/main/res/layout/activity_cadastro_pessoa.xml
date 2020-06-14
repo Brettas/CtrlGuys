@@ -13,7 +13,7 @@
         android:layout_height="70dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="80dp"
-        android:text="Cadastro"
+        android:text="@string/Cadastro"
         android:textAlignment="center"
         android:textSize="30sp"
         android:textStyle="bold" />
@@ -27,7 +27,7 @@
         android:layout_marginTop="20dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Nome"
+        android:text="@string/name"
         android:textAlignment="center"
         android:textSize="20sp" />
 
@@ -39,7 +39,7 @@
         android:layout_margin="10dp"
         android:ems="10"
         android:inputType="textEmailAddress"
-        android:text="Email"
+        android:text="@string/Email"
         android:textAlignment="center"
         android:textSize="20sp" />
 
@@ -51,7 +51,7 @@
         android:layout_margin="10dp"
         android:ems="10"
         android:inputType="textWebPassword"
-        android:text="passport"
+        android:text="@string/Senha"
         android:textAlignment="center"
         android:textSize="20sp" />
 
@@ -61,6 +61,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="5dp"
-        android:text="Cadastrar" />
+        android:text="@string/btnCadastrar" />
 
 </LinearLayout>
