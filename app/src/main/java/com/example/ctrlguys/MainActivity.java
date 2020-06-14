@@ -1,7 +1,9 @@
 package com.example.ctrlguys;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -9,5 +11,20 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+    }
+
+    public void startmainActivity (View view){
+        Intent mainActivity = new Intent(this, MainActivity.class);
+        startActivity(mainActivity);
+    }
+
+    public void startmainActivity2 (View view){
+        Intent mainActivity2 = new Intent(this, empresa_Activity.class);
+        startActivity(mainActivity2);
+    }
+
+    public void startpessoaActivity (View view){
+        Intent pessoaActivity = new Intent(this, pessoaActivity.class);
+        startActivity(pessoaActivity);
     }
 }

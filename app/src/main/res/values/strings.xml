@@ -16,4 +16,5 @@
     <string name="NomeEmpresa">Nome da Empresa</string>
     <string name="cnpj">CNPJ</string>
     <string name="horario">Horario</string>
+    <string name="Cadastra_Pessoa" />
 </resources>
