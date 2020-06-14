@@ -2,9 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     android:gravity="center"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/gradient">
 
 
     <TextView
@@ -42,7 +42,7 @@
         android:ems="10"
         android:textAlignment="center"
         android:textColor="@color/corTexto"
-        android:inputType="number"
+        android:inputType="textEmailAddress"
         android:text="@string/Email" />
 
     <EditText
