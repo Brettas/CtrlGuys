@@ -17,8 +17,8 @@ pessoa ou estabelecimento. Escolhido o cadastro como pessoa, o mesmo deverá pre
 for optado pela opção estabelecimento será necessário informar junto a ficha a quantidade de indivíduos permitidos no local. 
 
 Tecnologias: Android Studio, Java, SQLite, GitHub e Discord.
-
-###Licence
+--------------------------------------------------------------------------
+Licence
 
 Copyright (c) 2020 Vinicius Brettas
 
