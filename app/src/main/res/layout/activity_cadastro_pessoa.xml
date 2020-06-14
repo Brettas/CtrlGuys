@@ -3,7 +3,6 @@
     android:id="@+id/content_cad_pessoa"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/background_light"
     android:gravity="center"
     android:orientation="vertical">
 
@@ -13,11 +12,12 @@
         android:layout_width="300dp"
         android:layout_height="70dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="50dp"
         android:text="@string/Cadastro"
         android:textAlignment="center"
         android:textSize="30sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:textColor="@color/corTexto"/>
 
     <EditText
         android:id="@+id/txt_nome_pessoa"
@@ -27,6 +27,7 @@
         android:layout_margin="10dp"
         android:layout_marginTop="20dp"
         android:ems="10"
+        android:textColor="@color/corTexto"
         android:inputType="text"
         android:text="@string/name"
         android:textAlignment="center"
@@ -42,7 +43,9 @@
         android:inputType="textEmailAddress"
         android:text="@string/Email"
         android:textAlignment="center"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:textColor="@color/corTexto"
+        />
 
     <EditText
         android:id="@+id/txt_senha_pessoa"
@@ -54,14 +57,18 @@
         android:inputType="textWebPassword"
         android:text="@string/Senha_pessoa"
         android:textAlignment="center"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:textColor="@color/corTexto"/>
 
     <Button
         android:id="@+id/btn_cadastrar_pessoa"
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="5dp"
-        android:text="@string/btnCadastrar" />
+        android:text="@string/btnCadastrar"
+        android:textColor="#FFFFFF"
+        android:onClick="startinfoActivity"
+        android:background="@color/colorPrimaryDark"/>
 
 </LinearLayout>

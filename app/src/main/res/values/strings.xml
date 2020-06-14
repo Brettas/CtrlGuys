@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">CtrlGuys</string>
-    <string name="Nomeloja">Nome loja</string>
+    <string name="Nomeloja">Nome da Loja</string>
     <string name="Endereço">Endereço</string>
     <string name="Informaçao">Informaçao</string>
     <string name="n_pessoas">Capacidade</string>
@@ -20,4 +20,5 @@
     <string name="ok">OK</string>
     <string name="erro">Erro</string>
     <string name="conect_db">Conexão criada com sucesso</string>
+    <string name="Empresa_info">Informações</string>
 </resources>

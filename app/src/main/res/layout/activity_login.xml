@@ -5,17 +5,21 @@
     android:id="@+id/content_act_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    >
 
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_gravity="center_vertical"
         android:layout_weight="1"
         android:gravity="center_vertical"
+        android:layout_margin="5dp"
         android:onClick="startmainActivity2"
-        android:text="@string/Cadastra_Pessoa" />
+        android:text="@string/Cadastro_Empresa"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/corbtnTexto"/>
 
     <Button
         android:id="@+id/button4"
@@ -23,16 +27,22 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_weight="1"
+        android:layout_margin="5dp"
         android:gravity="center_vertical"
         android:onClick="startpessoaActivity"
-        android:text="@string/Cadastro_Empresa" />
+        android:text="@string/Cadastra_Pessoa"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/corbtnTexto"/>
     <Button
         android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_weight="1"
+        android:layout_margin="5dp"
         android:gravity="center_vertical"
-        android:onClick="startmainActivity2"
-        android:text="@string/Cadastro_Empresa" />
+        android:onClick="startinfoActivity"
+        android:text="@string/Empresa_info"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/corbtnTexto"/>
 </LinearLayout>

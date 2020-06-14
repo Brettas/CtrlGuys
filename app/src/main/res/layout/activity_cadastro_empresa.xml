@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/background_light"
+
     android:gravity="center"
     android:orientation="vertical">
 
@@ -15,6 +15,7 @@
         android:layout_marginBottom="80dp"
         android:text="@string/Cadastro_Empresa"
         android:textAlignment="center"
+        android:textColor="@color/corTexto"
         android:textSize="30sp"
         android:textStyle="bold" />
 
@@ -26,6 +27,7 @@
         android:layout_margin="10dp"
         android:layout_marginTop="20dp"
         android:ems="10"
+        android:textColor="@color/corTexto"
         android:inputType="text"
         android:text="@string/NomeEmpresa"
         android:textAlignment="center"
@@ -38,6 +40,8 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="5dp"
         android:ems="10"
+        android:textAlignment="center"
+        android:textColor="@color/corTexto"
         android:inputType="number"
         android:text="@string/Email" />
 
@@ -45,11 +49,13 @@
         android:id="@+id/txt_capacidade_empresa"
         android:layout_width="300dp"
         android:layout_height="70dp"
+        android:textAlignment="center"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="5dp"
         android:ems="10"
         android:inputType="number"
-        android:text="@string/n_pessoas" />
+        android:text="@string/n_pessoas"
+        android:textColor="@color/corTexto"/>
 
     <EditText
         android:id="@+id/txt_horario_empresa"
@@ -58,6 +64,8 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="5dp"
         android:ems="10"
+        android:textAlignment="center"
+        android:textColor="@color/corTexto"
         android:inputType="number"
         android:text="@string/horario" />
 
@@ -71,14 +79,19 @@
         android:inputType="textWebPassword"
         android:text="@string/Senha_empresa"
         android:textAlignment="center"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:textColor="@color/corTexto"/>
 
     <Button
         android:id="@+id/btn_cadastrar_empresa"
-        android:layout_width="wrap_content"
+        android:layout_width="206dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="5dp"
-        android:text="@string/btnCadastrar" />
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/btnCadastrar"
+        android:textAlignment="center"
+        android:textColor="@color/corbtnTexto"
+        android:onClick="startinfoActivity"/>
 
 </LinearLayout>
