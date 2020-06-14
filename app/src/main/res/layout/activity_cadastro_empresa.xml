@@ -19,7 +19,7 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/editTxtNomeloja"
+        android:id="@+id/txt_nome_empresa"
         android:layout_width="300dp"
         android:layout_height="70dp"
         android:layout_gravity="center"
@@ -32,17 +32,17 @@
         android:textSize="20sp" />
 
     <EditText
-        android:id="@+id/editTxtCEP"
+        android:id="@+id/txt_email_empresa"
         android:layout_width="300dp"
         android:layout_height="70dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="5dp"
         android:ems="10"
         android:inputType="number"
-        android:text="@string/cnpj" />
+        android:text="@string/Email" />
 
     <EditText
-        android:id="@+id/editTxtNPessoas"
+        android:id="@+id/txt_capacidade_empresa"
         android:layout_width="300dp"
         android:layout_height="70dp"
         android:layout_gravity="center_horizontal"
@@ -52,7 +52,7 @@
         android:text="@string/n_pessoas" />
 
     <EditText
-        android:id="@+id/editTxtHora"
+        android:id="@+id/txt_horario_empresa"
         android:layout_width="300dp"
         android:layout_height="70dp"
         android:layout_gravity="center_horizontal"
@@ -62,19 +62,19 @@
         android:text="@string/horario" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/txt_senha_empresa"
         android:layout_width="300dp"
         android:layout_height="70dp"
         android:layout_gravity="center"
         android:layout_margin="10dp"
         android:ems="10"
         android:inputType="textWebPassword"
-        android:text="@string/Senha"
+        android:text="@string/Senha_empresa"
         android:textAlignment="center"
         android:textSize="20sp" />
 
     <Button
-        android:id="@+id/btnCadastrar"
+        android:id="@+id/btn_cadastrar_empresa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

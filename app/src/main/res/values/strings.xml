@@ -9,12 +9,15 @@
     <string name="btnSair">Sair</string>
     <string name="Cadastro">Cadastro Pessoa</string>
     <string name="name">Nome</string>
-    <string name="Email">Email</string>
-    <string name="Senha">Senha</string>
+    <string name="Email">E-mail</string>
+    <string name="Senha_empresa">Senha</string>
+    <string name="Senha_pessoa">Senha</string>
     <string name="btnCadastrar">Cadastrar</string>
     <string name="Cadastro_Empresa">Cadastro Empresa</string>
     <string name="NomeEmpresa">Nome da Empresa</string>
-    <string name="cnpj">CNPJ</string>
     <string name="horario">Horario</string>
-    <string name="Cadastra_Pessoa" />
+    <string name="Cadastra_Pessoa">Cadastro Pessoa</string>
+    <string name="ok">OK</string>
+    <string name="erro">Erro</string>
+    <string name="conect_db">Conexão criada com sucesso</string>
 </resources>
