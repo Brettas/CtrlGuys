@@ -18,7 +18,7 @@ for optado pela opção estabelecimento será necessário informar junto a ficha
 
 Tecnologias: Android Studio, Java, SQLite, GitHub e Discord.
 
-Licence
+###Licence
 
 Copyright (c) 2020 Vinicius Brettas
 
