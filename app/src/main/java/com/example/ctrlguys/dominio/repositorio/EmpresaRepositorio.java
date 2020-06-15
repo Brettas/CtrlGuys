@@ -8,7 +8,7 @@ import com.example.ctrlguys.dominio.entidades.Empresa;
 public class EmpresaRepositorio {
 
     private SQLiteDatabase conexao;
-    private EmpresaRepositorio(SQLiteDatabase conexao){
+    public EmpresaRepositorio(SQLiteDatabase conexao){
         this.conexao = conexao;
     }
 
@@ -16,7 +16,7 @@ public class EmpresaRepositorio {
         ContentValues contentValues = new ContentValues();
         contentValues.put("NOME",empresa.nome);
         contentValues.put("EMAIL",empresa.email);
-        contentValues.put("CAPACIDADE",empresa.capacidade);
+        contentValues.put("CAPACIDADE", String.valueOf(empresa.capacidade));
         contentValues.put("LOTACAO",empresa.lotacao);
         contentValues.put("SENHA",empresa.senha);
         contentValues.put("HORARIO",empresa.horario);

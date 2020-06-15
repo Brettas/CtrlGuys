@@ -69,7 +69,7 @@
         android:layout_margin="5dp"
         android:text="@string/btnCadastrar"
         android:textColor="#FFFFFF"
-        android:onClick="startinfoActivity"
-        android:background="@color/colorPrimaryDark"/>
+        android:background="@color/colorPrimaryDark"
+        android:onClick="cadastrarPessoa"/>
 
 </LinearLayout>

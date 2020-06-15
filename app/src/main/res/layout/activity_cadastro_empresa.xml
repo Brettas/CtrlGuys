@@ -92,6 +92,6 @@
         android:text="@string/btnCadastrar"
         android:textAlignment="center"
         android:textColor="@color/corbtnTexto"
-        android:onClick="startinfoActivity"/>
+        android:onClick="cadastrarEmpresa"/>
 
 </LinearLayout>
