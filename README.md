@@ -1,13 +1,14 @@
 HACKATHON DO BNDES
 
-GRUPO IX
-
+GRUPO - IX
+---
 MEMBROS DO GRUPO:
-THIAGO PALERMO DE ANDRADE
-VINICIUS BRETTAS DA SILVA PALMEIRA
-PEDRO LUCAS ROSENO PACHECO
+THIAGO PALERMO DE ANDRADE - Fez a interação Back-End com o Front-End, fez os esboços das telas e ajudou na organização do projeto.
+VINICIUS BRETTAS DA SILVA PALMEIRA -  Fez o Front-End e Back-End e ajudou na organização do projeto.
+PEDRO LUCAS ROSENO PACHECO- Fez o Back-End e a conexão com o banco de dados SQLITE e ajudou a organização
 
 Tema: como conter o contágio do Covid-19?
+----
 
 Projeto: desenvolver um aplicativo que exiba o número de pessoas em um 
 determinado local, visando evitar aglomerações e por consequência ajudar a diminuir a proliferação do vírus no país.
